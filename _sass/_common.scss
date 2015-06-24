@@ -1,0 +1,45 @@
+body {
+	// position: relative;
+	max-width: 100%;
+	overflow-x: hidden;
+
+	ul
+		{
+		list-style-type: none;
+		}
+}
+
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	font-size: 7vmin;
+}
+
+h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:600;
+	font-size:32px;
+	color: #2c3e50;
+}
+
+h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+	font-size:3vmin;
+	margin-bottom:10px;
+}
+
+h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:600;
+	font-size:21px;
+	margin-bottom:10px;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:18px;
+	color:#444;
+}
