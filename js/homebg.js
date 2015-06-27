@@ -8,17 +8,20 @@ $(document).ready(function(){
 
 	new WOW().init();	
 
-	$("#all9").click(function(){
+	$("#all9").click(function(ev){
+		ev.preventDefault();
 		$("#calci1").fadeIn(1500);
 		$("#psd1").fadeIn(1500);
 	});
 
-	$("#psd9").click(function(){
+	$("#psd9").click(function(ev){
+		ev.preventDefault();
 		$("#calci1").fadeOut(1500);
 		$("#psd1").fadeIn(1500);
 	});
 
-	$("#calci9").click(function(){
+	$("#calci9").click(function(ev){
+		ev.preventDefault();
 		$("#psd1").fadeOut(1500);
 		$("#calci1").fadeIn(1500);
 	});

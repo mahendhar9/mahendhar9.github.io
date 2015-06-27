@@ -5800,11 +5800,13 @@ body {
   overflow-x: hidden; }
   body ul {
     list-style-type: none; }
+  body ul li {
+    display: inline; }
 
 h1 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 500;
-  font-size: 7vmin; }
+  font-size: 45px; }
 
 h2 {
   font-family: 'Titillium Web', sans-serif;
@@ -5815,7 +5817,7 @@ h2 {
 h3 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
-  font-size: 3vmin;
+  font-size: 23px;
   margin-bottom: 10px; }
 
 h4 {
@@ -5867,47 +5869,35 @@ nav {
   min-height: 100vmin;
   background-image: url("../img/bg9.jpg");
   background-size: cover; }
-
-.name h1 {
-  position: absolute;
-  top: -65vmin;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  border: 2px solid #fff;
-  padding: 15px 30px; }
-
-.full-stack h3 {
-  position: absolute;
-  top: -50vmin;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff; }
-
-.fa-bolt {
-  position: absolute;
-  top: -48vmin;
-  left: 39%;
-  transform: translateX(-39%);
-  color: #fff; }
-
-.bolt2 {
-  position: absolute;
-  top: -48vmin;
-  left: 61%;
-  transform: translateX(-61%);
-  color: #fff; }
-
-#scroll-down {
-  position: absolute;
-  bottom: 2%;
-  left: 48%;
-  transform: translateX(-50%); }
-  #scroll-down .fa-angle-double-down {
-    color: #f5f5f5; }
+  #home .move-up-name {
+    position: relative;
+    margin-top: -65vh;
+    transform: translateY(-100%);
+    text-align: center; }
+  #home .rel {
+    position: relative; }
+  #home .name h1 {
+    color: #fff;
+    border: 2px solid #fff;
+    width: 60%;
+    padding: 15px 30px;
+    display: inline-block; }
+  #home .full-stack h3 {
+    color: #fff;
+    display: inline-block; }
+  #home .fa-bolt {
+    color: #fff; }
+  #home .bolt2 {
+    color: #fff; }
+  #home #scroll-down {
+    position: absolute;
+    bottom: 2%;
+    left: 47%; }
+    #home #scroll-down .fa-angle-double-down {
+      color: #f5f5f5; }
 
 #profile {
-  min-height: 80vmin;
+  min-height: 540px;
   position: relative; }
   #profile hr {
     margin-top: 110px;
@@ -5919,14 +5909,14 @@ nav {
     position: absolute;
     left: 48%;
     transform: translateX(-48%);
-    margin-top: 30px; }
+    margin-top: 55px; }
   #profile .details {
     font-size: 17px; }
 
 .profile {
   margin-top: 60px; }
   .profile .space-before {
-    margin-left: 20px; }
+    margin-left: 40px; }
   .profile img {
     margin-top: 10px;
     margin-left: 15px;
@@ -5938,7 +5928,7 @@ nav {
 
 #skills {
   margin: 0;
-  min-height: 80vmin;
+  min-height: 500px;
   background-color: #6dd3e7; }
   #skills h2 {
     position: relative;
@@ -5975,7 +5965,7 @@ nav {
     -o-animation: movecar 9s infinite; }
   #skills .move-up-skills {
     position: relative;
-    margin-top: -35vmin;
+    margin-top: -240px;
     z-index: 999; }
   #skills .skill-rating {
     margin-bottom: 15px; }
@@ -5988,7 +5978,7 @@ nav {
     padding-left: 55px; }
 
 #portfolio {
-  min-height: 90vmin; }
+  min-height: 600px; }
   #portfolio h2 {
     position: relative;
     left: 42%;
@@ -6007,17 +5997,20 @@ nav {
     padding: 7px 15px; }
     #portfolio .nav-pills li a:hover {
       padding: 7px 15px; }
+    #portfolio .nav-pills li a .img-width {
+      width: 45%;
+      display: inline-block; }
   #portfolio .pills {
     margin-bottom: 30px; }
 
 #contact {
-  min-height: 60vmin;
+  min-height: 450px;
   background-image: url("../img/buildings.jpg");
   background-size: cover; }
 
 #contact-me {
   position: relative;
-  min-height: 81vmin;
+  min-height: 550px;
   background-color: #ecf0f1; }
   #contact-me h2 {
     position: relative;
@@ -6042,17 +6035,17 @@ nav {
     position: absolute;
     top: 7%;
     left: 5%; }
-  #contact-me #tree {
+  #contact-me .tree-bird {
     position: absolute;
     bottom: 52px;
-    right: 7%; }
+    right: 16%; }
   #contact-me #bird {
     position: absolute;
-    bottom: 150px;
-    right: 21.5%; }
+    left: -39%;
+    bottom: 130px; }
   #contact-me #heart {
     position: absolute;
-    left: 42%;
+    left: 43.5%;
     bottom: 23%; }
   #contact-me #grass {
     position: absolute;
@@ -6062,7 +6055,7 @@ nav {
     height: 125px; }
   #contact-me #carpe-diem {
     position: absolute;
-    left: 44.5%;
+    left: 46%;
     bottom: 21%;
     font-family: 'Satisfy', cursive;
     font-size: 28px; }
