@@ -5928,13 +5928,13 @@ nav {
 
 #skills {
   margin: 0;
-  min-height: 500px;
+  min-height: 580px;
   background-color: #6dd3e7; }
   #skills h2 {
     position: relative;
     left: 39%;
     margin-top: -3%; }
-  #skills .fa-star {
+  #skills .fa-star, #skills .fa-star-half-o {
     color: #fde921; }
   #skills .fa-star-o {
     color: #fde921; }
@@ -5978,7 +5978,7 @@ nav {
     padding-left: 55px; }
 
 #portfolio {
-  min-height: 600px; }
+  min-height: 1120px; }
   #portfolio h2 {
     position: relative;
     left: 42%;
@@ -6001,6 +6001,9 @@ nav {
       width: 45%;
       display: inline-block; }
   #portfolio .pills {
+    margin-bottom: 30px; }
+  #portfolio .all {
+    height: 246px;
     margin-bottom: 30px; }
 
 #contact {

@@ -171,7 +171,7 @@ nav {
 #skills {
 	//position:relative;
 	margin:0;
-	min-height:500px;
+	min-height:580px;
 	background-color: #6dd3e7;
 
 	h2 {
@@ -180,7 +180,7 @@ nav {
 		margin-top: -3%;
 	}
 
-	.fa-star {
+	.fa-star, .fa-star-half-o {
 		color:#fde921;
 	}
 
@@ -246,7 +246,7 @@ nav {
 }
 
 #portfolio {
-	min-height: 600px;
+	min-height: 1120px;
 	
 	h2 {
 		position:relative;
@@ -281,6 +281,11 @@ nav {
 	}
 
 	.pills {
+		margin-bottom: 30px;
+	}
+
+	.all {
+		height: 246px;
 		margin-bottom: 30px;
 	}
 

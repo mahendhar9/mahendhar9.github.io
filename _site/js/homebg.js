@@ -8,23 +8,54 @@ $(document).ready(function(){
 
 	new WOW().init();	
 
+	// $("#all9").click(function(ev){
+	// 	ev.preventDefault();
+	// 	$("#calci1").fadeIn(1500);
+	// 	$("#psd1").fadeIn(1500);
+	// });
+
+	// $("#html").click(function(ev){
+	// 	ev.preventDefault();
+
+	// 	// $("#calci1").fadeOut(1500);
+	// 	// $("#psd1").fadeIn(1500);
+	// });
+
 	$("#all9").click(function(ev){
-		ev.preventDefault();
-		$("#calci1").fadeIn(1500);
-		$("#psd1").fadeIn(1500);
+		ev.preventDefault();		
+		$('.all').fadeIn(1000);
 	});
 
-	$("#psd9").click(function(ev){
-		ev.preventDefault();
-		$("#calci1").fadeOut(1500);
-		$("#psd1").fadeIn(1500);
+	$("#html9").click(function(ev){
+		ev.preventDefault();		
+		$('.all').hide();
+		$('.html').fadeIn(1000);		
 	});
 
-	$("#calci9").click(function(ev){
-		ev.preventDefault();
-		$("#psd1").fadeOut(1500);
-		$("#calci1").fadeIn(1500);
+	$("#javascript9").click(function(ev){
+		ev.preventDefault();		
+		$('.all').hide();
+		$('.javascript').fadeIn(1000);		
 	});
+
+	$("#rails9").click(function(ev){
+		ev.preventDefault();		
+		$('.all').hide();
+		$('.rails').fadeIn(1000);		
+	});
+
+	$("#mystartup9").click(function(ev){
+		ev.preventDefault();		
+		$('.all').hide();
+		$('.startup').fadeIn(1000);		
+	});
+
+
+	// $("#calci9").click(function(ev){
+	// 	ev.preventDefault();
+	// 	$("#psd1").fadeOut(1500);
+	// 	$("#calci1").fadeIn(1500);
+	// });
 
 
     $('[data-toggle="tooltip"]').tooltip(); 
