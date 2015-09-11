@@ -86,12 +86,13 @@ nav {
 	display:inline-block;
 }
 
-.fa-bolt{
+.fa-heart{
 	// position: absolute;
 	// top: -48vmin;
 	// left:39%;
 	// transform: translateX(-39%);
-	color:#fff;
+	font-size: 18px;
+	color:red;
 }
 
 .bolt2{
@@ -171,7 +172,7 @@ nav {
 #skills {
 	//position:relative;
 	margin:0;
-	min-height:580px;
+	min-height:640px;
 	background-color: #6dd3e7;
 
 	h2 {

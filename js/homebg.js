@@ -44,11 +44,24 @@ $(document).ready(function(){
 		$('.rails').fadeIn(1000);		
 	});
 
+	$("#angular9").click(function(ev){
+		ev.preventDefault();		
+		$('.all').hide();
+		$('.angular').fadeIn(1000);		
+	});
+
 	$("#mystartup9").click(function(ev){
 		ev.preventDefault();		
 		$('.all').hide();
 		$('.startup').fadeIn(1000);		
 	});
+
+	$("#wordpress9").click(function(ev){
+		ev.preventDefault();		
+		$('.all').hide();
+		$('.eureka').fadeIn(1000);		
+	});
+
 
 
 	// $("#calci9").click(function(ev){
