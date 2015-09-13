@@ -89,7 +89,7 @@ $(document).ready(function(){
     }
   });
 
-	$('body').scrollspy({ target: '#navbar' });
+	$('body').scrollspy({ target: 'nav' });
 
   $('nav').affix({
 	  offset: {
