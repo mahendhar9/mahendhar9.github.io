@@ -310,6 +310,12 @@ nav {
 	position:relative;
 	min-height: 550px;
 	background-color: #ecf0f1;
+
+	a {
+		text-decoration: none;
+		color: #444;
+	}
+
 	h2 {
 		position:relative;
 		left:42%;
