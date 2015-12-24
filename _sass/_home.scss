@@ -8,40 +8,40 @@
 	font-size: 16px;
 }
 nav {
-  background-color: transparent;
-  transition: background-color 0.5s ease-in;
+	background-color: transparent;
+	transition: background-color 0.5s ease-in;
 
-  &.affix {
-    background-color: black;
-    opacity:0.7;
-  }
+	&.affix {
+		background-color: black;
+		opacity:0.7;
+	}
 }
 
 .nav > li > a {
-    padding:7px 15px;
-    margin: 10px 7px;
-    color:#fff;
-    
-    &:hover {
-    	background-color: transparent;
-    	border:1px solid #f5f5f5;
-    	padding:6px 14px;
-    	transition:all 0.6s linear 0;
-    }
+	padding:7px 15px;
+	margin: 10px 7px;
+	color:#fff;
 
-    &:active {
-    	background-color: transparent;
-    	padding:6px 14px;
-    	border:1px solid #f5f5f5;
+	&:hover {
+		background-color: transparent;
+		border:1px solid #f5f5f5;
+		padding:6px 14px;
+		transition:all 0.6s linear 0;
+	}
 
-    }
+	&:active {
+		background-color: transparent;
+		padding:6px 14px;
+		border:1px solid #f5f5f5;
 
-    &:focus{
-    	background-color: transparent;
-    	border:1px solid #f5f5f5;
-    	padding:6px 14px;
-    }
-  
+	}
+
+	&:focus{
+		background-color: transparent;
+		border:1px solid #f5f5f5;
+		padding:6px 14px;
+	}
+
 }
 
 #home {
@@ -50,21 +50,21 @@ nav {
 	background-image: url("../img/bg9.jpg");
 	background-size: cover;
 
-.move-up-name {
-	position: relative;
-	margin-top:-65vh;
+	.move-up-name {
+		position: relative;
+		margin-top:-65vh;
 
-	transform:translateY(-100%);
-	text-align:center;
+		transform:translateY(-100%);
+		text-align:center;
 
-}
+	}
 
-.rel {
-	position: relative;
-}
+	.rel {
+		position: relative;
+	}
 
-.name h1 {
-	  color:#fff;
+	.name h1 {
+		color:#fff;
 		border:2px solid #fff;
 		width:60%;
 		padding: 15px 30px;
@@ -74,9 +74,9 @@ nav {
 		// left:50%;
 		// transform: translateX(-50%);
 		
-}
+	}
 
-.full-stack h3{
+	.full-stack h3{
 	// position: absolute;
 	// top: -50vmin;
 	// left:50%;
@@ -113,12 +113,16 @@ nav {
 		color: #f5f5f5;
 	}
 
- }
+}
 }
 
 #profile {
 	min-height:540px;
 	position:relative;
+
+	background-image: url('../img/profile_bg.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
 
 	// h2{
 	// 	// margin-top: 9vmin;
@@ -364,11 +368,11 @@ nav {
 	// 	right:7%;
 	// }
 
- #bird {
-  position: absolute;
-  left: -39%;
-  bottom: 130px;
- }
+	#bird {
+		position: absolute;
+		left: -39%;
+		bottom: 130px;
+	}
 
 	#heart {
 		position: absolute;
@@ -389,8 +393,8 @@ nav {
 		position: absolute;
 		left:46%;
 		bottom:21%;
-    font-family: 'Satisfy', cursive;
-    font-size:28px;
+		font-family: 'Satisfy', cursive;
+		font-size:28px;
 
 	}
 
@@ -401,34 +405,34 @@ nav {
 }
 
 .tooltip-inner {
-    max-width: 400px;
+	max-width: 400px;
     /* If max-width does not work, try using width instead */
     // width: 350px; 
-}
+  }
 
 /* Animation Keyframes*/
 @keyframes movecar{
-0%{left:-128px;}
-50%{left:50%;}
-100%{left:100%;}
+	0%{left:-128px;}
+	50%{left:50%;}
+	100%{left:100%;}
 }
 
 @-moz-keyframes movecar{
-0%{left:-128px;}
-50%{left:50%;}
-100%{left:100%;}
+	0%{left:-128px;}
+	50%{left:50%;}
+	100%{left:100%;}
 }
 
 @-webkit-keyframes movecar{
-0%{left:-128px;}
-50%{left:50%;}
-100%{left:100%;}
+	0%{left:-128px;}
+	50%{left:50%;}
+	100%{left:100%;}
 }
 
 @-o-keyframes movecar{
-0%{left:-128px;}
-50%{left:50%;}
-100%{left:100%;}
+	0%{left:-128px;}
+	50%{left:50%;}
+	100%{left:100%;}
 }
 
 /*Clouds*/
@@ -455,30 +459,30 @@ nav {
 /* KEYFRAMES */
 
 @-webkit-keyframes animateCloud {
-    0% {
-        margin-left: -1000px;
-    }
-    100% {
-        margin-left: 100%;
-    }
+	0% {
+		margin-left: -1000px;
+	}
+	100% {
+		margin-left: 100%;
+	}
 }
 
 @-moz-keyframes animateCloud {
-    0% {
-        margin-left: -1000px;
-    }
-    100% {
-        margin-left: 100%;
-    }
+	0% {
+		margin-left: -1000px;
+	}
+	100% {
+		margin-left: 100%;
+	}
 }
 
 @keyframes animateCloud {
-    0% {
-        margin-left: -1000px;
-    }
-    100% {
-        margin-left: 100%;
-    }
+	0% {
+		margin-left: -1000px;
+	}
+	100% {
+		margin-left: 100%;
+	}
 }
 
 /* ANIMATIONS */
@@ -559,7 +563,7 @@ nav {
 }
 
 .cloud:after, .cloud:before {
-    background: #fff;
+	background: #fff;
 	content: '';
 	position: absolute;
 	z-index: -1;
@@ -586,4 +590,4 @@ nav {
 	right: 50px;
 	top: -90px;
 }
-	
+
