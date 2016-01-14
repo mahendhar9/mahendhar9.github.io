@@ -6,6 +6,14 @@ $(document).ready(function(){
 
 	});
 
+   $('.type-it').typeIt({
+    whatToType: ["Hello, I'm Mahendhar."],
+    typeSpeed: 300,
+    lifeLike: true,
+    breakLines: false,
+    showCursor: true
+  });
+
 	$('#voiceModal').modal('show');
 
 	if (annyang) {
