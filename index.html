@@ -13,9 +13,8 @@ layout: default
         </div> 
 
         <div class="col-md-12 col-lg-12 full-stack">
-          <i class="wow flash fa fa-heart fa-2x" data-wow-duration="2s" data-wow-delay="2s" data-wow-iteration="100"></i>
+          <i class="fa fa-heart fa-2x"></i>
           <h3 class="wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">Full stack web developer</h3>
-          <!-- <i class="wow flash fa fa-heart fa-2x bolt2" data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="30"></i> -->
         </div>
 
       </div>
@@ -429,163 +428,133 @@ layout: default
 </section>
 
 <section id="portfolio">
-
   <div class="row">
     <div class="container">
-
       <h2>Portfolio</h2>        
       <hr class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1s">
     </div>
-
   </div>
 
   <div class="row">
     <div class="container">
       <div class="col-md-offset-1 col-md-11 col-lg-offset-1 col-lg-11">
-
-        <ul class="filter nav nav-pills pills">
-          <li data-value="all" id="all9"><a href="#portfolio">All</a></li>
-          <li data-value="html" id="html9"><a href="#portfolio">HTML & CSS</a></li>
-          <li data-value="javascript" id="javascript9"><a href="#portfolio">Javascript/Jquery</a></li>
-          <li data-value="rails" id="rails9"><a href="#portfolio">Ruby on Rails</a></li>
-          <li data-value="angular" id="angular9"><a href="#portfolio">Angular JS</a></li>
-          <li data-value="mystartup" id="mystartup9"><a href="#portfolio">My Startup - MISTBlogs</a></li>
-          <li data-value="angular" id="wordpress9"><a href="#portfolio">WordPress</a></li>
-
-
+        <ul class="nav nav-pills pills">
+          <li class="filter" data-filter = "all" ><a href="#portfolio">All</a></li>
+          <li class="filter" data-filter = ".html" ><a href="#portfolio">HTML & CSS</a></li>
+          <li class="filter" data-filter = ".javascript"><a href="#portfolio">Javascript/Jquery</a></li>
+          <li class="filter" data-filter = ".rails"><a href="#portfolio">Ruby on Rails</a></li>
+          <li class="filter" data-filter = ".angular"><a href="#portfolio">Angular JS</a></li>
+          <li class="filter" data-filter = ".startup"><a href="#portfolio">My Startup - MISTBlogs</a></li>
+          <li class="filter" data-filter = ".eureka"><a href="#portfolio">WordPress</a></li>
         </ul>
-
       </div>        
     </div>
   </div>
 
+  <div class="row">
+    <div class="container">
+      <ul class="thumbnails" id="Container">  
+        <li class="col-md-6 col-lg-6 html mix">
+        <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/projectpsd9.jpg" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 javascript mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/projectcalci9.jpg" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 javascript mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/project_puzzle.jpg" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 javascript mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/ysearch_project.png" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 rails mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/proj_advid9.jpg" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 angular mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/weather_project.png" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 rails mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/shareit_project.jpg" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 rails mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/project_inspire.jpg" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 startup mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/proj_mist9.jpg" alt=""></a>
+        </li>
+
+        <li class="col-md-6 col-lg-6 eureka mix">
+          <a href="#portfolio" class="thumbnail"><img class="img-responsive" src="img/startupeureka.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+</section>
+
+<section id = "contact-me">
 
   <div class="row">
     <div class="container">
-      <ul class="thumbnails">  
-        <li data-type="html" data-id="id-1" class="col-md-6 col-lg-6 all html">
-          <a href="#portfolio" class="thumbnail" id="psd1"><img class="img-responsive" src="img/projectpsd9.jpg" alt=""></a>
-        </li>
 
-        <li data-type="javascript" data-id="id-2" class="col-md-6 col-lg-6 javascript all">
-          <a href="#portfolio" class="thumbnail" id="calci1"><img class="img-responsive" src="img/projectcalci9.jpg" alt=""></a>
-        </li>
-
-        <li data-type="javascript" data-id="id-3" class="col-md-6 col-lg-6 javascript all">
-          <a href="#portfolio" class="thumbnail" id="imgpuzzle"><img class="img-responsive" src="img/project_puzzle.jpg" alt=""></a>
-        </li>
-
-        <li data-type="javascript" data-id="id-3" class="col-md-6 col-lg-6 javascript all">
-          <a href="#portfolio" class="thumbnail" id="ysearch"><img class="img-responsive" src="img/ysearch_project.png" alt=""></a>
-        </li>
-
-        <li data-type="rails" data-id="id-3" class="col-md-6 col-lg-6 rails all">
-          <a href="#portfolio" class="thumbnail" id="advid"><img class="img-responsive" src="img/proj_advid9.jpg" alt=""></a>
-        </li>
-
-
-        <li data-type="angular" data-id="id-3" class="col-md-6 col-lg-6 angular all">
-          <a href="#portfolio" class="thumbnail" id="angular"><img class="img-responsive" src="img/weather_project.png" alt=""></a>
-        </li>
-
-        <li data-type="rails" data-id="id-3" class="col-md-6 col-lg-6 rails all">
-          <a href="#portfolio" class="thumbnail" id="shareit"><img class="img-responsive" src="img/shareit_project.jpg" alt=""></a>
-        </li>
-
-        <li data-type="rails" data-id="id-3" class="col-md-6 col-lg-6 rails all">
-          <a href="#portfolio" class="thumbnail" id="inspire"><img class="img-responsive" src="img/project_inspire.jpg" alt=""></a>
-        </li>
-
-        <li data-type="mystartup" data-id="id-3" class="col-md-6 col-lg-6 all startup">
-          <a href="#portfolio" class="thumbnail" id="mystartup"><img class="img-responsive" src="img/proj_mist9.jpg" alt=""></a>
-        </li>
-
-        <li data-type="eureka" data-id="id-3" class="col-md-6 col-lg-6 all eureka">
-          <a href="#portfolio" class="thumbnail" id="eureka"><img class="img-responsive" src="img/startupeureka.png" alt=""></a>
-        </li>
-
-
-      </ul>
-    </div>
-
-       <!-- <div class="container">
-
-        <ul class="thumbnails">  
-          <li data-type="psd" data-id="id-1">
-              <a href="#portfolio" class="" id="psd1"><img class="img-responsive img-width" src="img/projectpsd.png" alt=""></a>
-          </li>
-
-          <li data-type="calci" data-id="id-2">
-              <a href="#portfolio" class="" id="calci1"><img class="img-responsive img-width" src="img/projectcalci.png" alt=""></a>
-          </li>
-         
-        </ul>
-      </div> -->
+      <h2>Contact Me</h2>        
+      <hr class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1s">
 
     </div>
-    
+  </div>
 
-  </section>
+  <div class="row">
+    <div class="container">
+      <div class="col-md-offset-4 col-md-1">
+        <img class="img-responsive wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s" src="img/email.png">
+      </div>
 
-  <section id="contact">
 
-
-  </section>
-
-  <section id = "contact-me">
-
-    <div class="row">
-      <div class="container">
-
-        <h2>Contact Me</h2>        
-        <hr class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1s">
-
+      <div class="col-md-6">
+        <p class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2s" ><a href="mailto:mahendarreddy@live.com"><strong>mahendarreddy@live.com</strong></a></p>
       </div>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="container">
-        <div class="col-md-offset-4 col-md-1">
-          <img class="img-responsive wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s" src="img/email.png">
-        </div>
+  <div class="row phone-row">
+    <div class="container">
+      <div class="col-md-offset-4 col-md-1">
+        <img class="img-responsive wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2.5s" src="img/phone9.png">
+      </div>
 
 
-        <div class="col-md-6">
-          <p class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2s" ><a href="mailto:mahendarreddy@live.com"><strong>mahendarreddy@live.com</strong></a></p>
-        </div>
+      <div class="col-md-6">
+        <p class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2.5s"><strong>+91 8341407914</strong></p>
       </div>
     </div>
+  </div>
 
-    <div class="row phone-row">
-      <div class="container">
-        <div class="col-md-offset-4 col-md-1">
-          <img class="img-responsive wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2.5s" src="img/phone9.png">
-        </div>
+  <img id="sun" class="img-responsive wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s" src="img/sun.png">
 
+  <div class="tree-bird">
 
-        <div class="col-md-6">
-          <p class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2.5s"><strong>+91 8341407914</strong></p>
-        </div>
-      </div>
-    </div>
+    <img id="bird" class="img-responsive wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" src="img/hummingbird.gif">
 
-    <img id="sun" class="img-responsive wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s" src="img/sun.png">
-
-    <div class="tree-bird">
-
-      <img id="bird" class="img-responsive wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" src="img/hummingbird.gif">
-
-      <img id="tree" class="img-responsive wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" src="img/tree99.png">
+    <img id="tree" class="img-responsive wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" src="img/tree99.png">
 
 
-    </div>
+  </div>
 
 
 
-    <img id="heart" src = "img/heart.png">
-    <h4 id="carpe-diem" data-toggle="tooltip" data-placement="top" title="Make the most of the present time and give little thought to the future.">Carpe diem</h4>
+  <img id="heart" src = "img/heart.png">
+  <h4 id="carpe-diem" data-toggle="tooltip" data-placement="top" title="Make the most of the present time and give little thought to the future.">Carpe diem</h4>
 
-    <img id="grass" class="img-responsive" src="img/grass.png">
+  <img id="grass" class="img-responsive" src="img/grass.png">
 
-  </section>
+</section>
 

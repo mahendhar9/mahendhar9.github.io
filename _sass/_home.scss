@@ -280,6 +280,10 @@ nav.pushy-open {
 
 #portfolio {
 	min-height: 1120px;
+
+	#Container .mix{
+    display: none;
+}
 	
 	h2 {
 		position:relative;
@@ -304,13 +308,17 @@ nav.pushy-open {
 
 		&:hover {
 			padding:7px 15px;
-
-		}  
+		}
 
 		.img-width {
 			width:45%;
 			display: inline-block;
 		}
+	}
+
+	.nav-pills > li.active > a {
+		color: #fff;
+		background-color: rgba(61, 147, 162, 0.88);
 	}
 
 	.pills {
