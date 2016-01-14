@@ -47,7 +47,7 @@ nav {
 
 nav.pushy-open {
 	width: 555px;
-	background-color: rgba(31,119,78,0.94);
+	background-color: rgba(32, 138, 156, 0.93);
 
 	ul {
 		padding-left: 23px;
@@ -58,8 +58,9 @@ nav.pushy-open {
 		}
 
 		.pushy-heading {
+			font-family: 'Satisfy', cursive;
 			color: rgb(245, 245, 38);
-			font-size: 20px;
+			font-size: 27px;
 		}
 	}
 	p {
