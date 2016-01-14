@@ -1,27 +1,43 @@
 <!-- <header class="site-header"> -->
 
-
- <nav class="navbar navbar-fixed-top navbar-transparent">
-      <div class="container">
-
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li id = "voice-home" class="active"><a href="#home">Home</a></li>
-            <li id = "voice-profile"><a href="#profile">Profile</a></li>
-            <li id = "voice-skills"><a href="#skills">Skills</a></li>
-            <li id = "voice-portfolio"><a href="#portfolio">Portfolio</a></li>
-            <li id = "voice-contact"><a href="#contact-me">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+<nav class="pushy pushy-custom pushy-left">
+  <ul><p class="pushy-heading">To scroll to a specific section,</p>
+    <li><p>- Say 'Go to #{section-name}'.</p></li>
+    <li><p>- For ex, 'Go to Skills'.</p></li>
+  </ul>
+  <ul><p class="pushy-heading">When viewing Portfolio,</p>
+    <li><p>- Say 'All Projects' to view All Projects. </p></li>
+    <li><p>- Say 'HTML Projects' to view all HTML & CSS Projects. </p></li>
+    <li><p>- Say 'Javascript Projects' to view all Javascript & Jquery Projects.</p></li>
+    <li><p>- Say 'Rails Projects' to view all Ruby on Rails Projects.</p></li>
+    <li><p>- Say 'Angular Projects' to view all AngularJS Projects.</p></li>
+  </ul>
 </nav>
+
+<div class="site-overlay"></div>
+
+<nav class="navbar navbar-fixed-top navbar-transparent">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand menu-btn" href="#"><i class="fa fa-microphone"></i></a>
+    </div>
+
+    <div id="navbar" class="collapse navbar-collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li id = "voice-home" class="active"><a href="#home">Home</a></li>
+        <li id = "voice-profile"><a href="#profile">Profile</a></li>
+        <li id = "voice-skills"><a href="#skills">Skills</a></li>
+        <li id = "voice-portfolio"><a href="#portfolio">Portfolio</a></li>
+        <li id = "voice-contact"><a href="#contact-me">Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
